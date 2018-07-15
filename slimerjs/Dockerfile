@@ -12,3 +12,5 @@ RUN \
     tar xvjf slimerjs-1.0.0.tar.bz2 && \
     ln -st /usr/local/bin /opt/slimerjs-1.0.0/slimerjs && \
     rm -f slimerjs-1.0.0.tar.bz2
+
+ENV MOZ_HEADLESS=1
