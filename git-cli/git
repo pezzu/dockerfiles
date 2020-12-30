@@ -1,0 +1,2 @@
+#!/bin/ksh
+docker run -v"$(pwd)":/sbx --rm --name git git-cli $@
